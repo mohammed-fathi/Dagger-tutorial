@@ -6,4 +6,8 @@ public class Farm {
     @Inject
     public Farm() {
     }
+
+    public String getBeans(){
+        return "Beans";
+    }
 }

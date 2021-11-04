@@ -6,4 +6,6 @@ import dagger.Component;
 public interface CoffeeComponent {
 
     Caffee getCoffee();
+
+    void inject(MainActivity mainActivity);
 }
